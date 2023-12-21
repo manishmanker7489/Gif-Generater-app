@@ -191,8 +191,6 @@ const GiphySearch = () => {
         <button className="text-white mt-4 bg-red-500 hover:bg-red-600 py-2 px-4 rounded-lg"
          onClick={() => {
           router.push('/sign-up')
-        signOut(auth)
-        sessionStorage.removeItem('user');
         
         }}>
         Log out
