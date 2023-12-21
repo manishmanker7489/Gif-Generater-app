@@ -9,6 +9,8 @@ import {auth} from '@/app/firebase/config'
 import { useRouter } from 'next/navigation';
 import { signOut } from 'firebase/auth';
 
+
+
 // import { redirect } from "next/navigation";
 
 
@@ -187,10 +189,11 @@ const GiphySearch = () => {
 
 
         <button className="text-white mt-4 bg-red-500 hover:bg-red-600 py-2 px-4 rounded-lg"
-         onClick={() => {
-        signOut(auth)
-        sessionStorage.removeItem('user')
-        }}>
+        //  onClick={() => {
+        // signOut(auth)
+        //  sessionStorage.removeItem('user')
+        // }}
+        >
         Log out
       </button>
 
